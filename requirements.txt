@@ -1,0 +1,9 @@
+pyarrow
+pandas
+torch
+torchvision
+torchaudio
+transformers
+einops
+tqdm
+scikit-learn
