@@ -41,6 +41,9 @@ sys	0m2.120s
 $
 ```
 
+There's other fun things to do with this data. `most_odd.py` finds the 25 cards least like any other cards, but also shows how to very quickly generate a cosine similarity matrix that has the pre-computed similarity of every card to every other card as a side effect. By looking up the index of a given name (i) and a second given name (j), the matrix can be indexed into (i, j) to look up the score. It's possible to do all sorts of fun things from a reply or Jupyter Notebook this way.
+
+
 # TODOs
 - Add filters when querying, which would require amending the parquet file with extra fields for things like type and set legality
 - Add an option to bring in the original JSON file for a verbose mode to print card details instead of just the name
